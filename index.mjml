@@ -1,0 +1,217 @@
+<mjml>
+    <mj-head>
+        <mj-title>test</mj-title>
+        <mj-preview>test</mj-preview>
+        <mj-style>
+            a> p{
+                text-decoration: none;
+                color: black;
+                font-family: Helvetica;
+                font-size: 16px;
+                font-weight: 700;
+                
+                }
+            .base-width{
+                min-width: 250px;
+
+                padding: 0px;
+
+            }
+            .base-width img{
+                padding: 0px;
+                min-width: 250px;
+            } 
+
+            }
+            .ghost{
+                max-width: 10px;
+                height: 10px;
+            }
+            .soc-bar{
+                <!-- background-color: red; -->
+                max-width: 300px;
+                min-width: 280px;
+                text-align: center;
+
+        
+            }
+            .soc-bar img{
+                vertical-align: middle;
+                
+            }
+            .soc-bar a{
+                text-decoration: none;
+                <!-- padding: 10px; -->
+                max-height: 39px;
+                min-height: 19px;
+            }
+            .footer-text{
+                min-width: 300px;
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-body width="980px" background-color="#E5E5E5" >
+        <mj-section   padding="20px 190px">
+
+            <mj-column background-color="#FFFFFF" padding="0px" border-radius="20px 20px 20px 20px" >
+                <mj-image src="./img/1.png" border-radius="20px 20px 0px 0px" padding="0px"/>    
+                <mj-text align="center" font-family="Helvetica" font-size="19px" background-color="#FFFFFF" padding="50px 40px 30px" >
+                    Nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty poochy. Sleep on keyboard toy mouse squeak roll over. Mesmerizing birds. Poop on grasses licks paws destroy couch intently sniff hand. The dog smells bad gnaw the corn cob.
+                </mj-text>
+                <mj-button href="https://google.com" border-radius="10px" width="250px" height="50px" font-family="Helvetica" font-size="16px" padding-bottom="40px">button</mj-button>
+            </mj-column>
+        </mj-section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <mj-wrapper padding="40px 190px">
+        <mj-section  background-color="#FFFFFF" border-radius="20px" padding="50px 30px 0">
+
+                <mj-column  css-class="base-width" >
+                    <mj-image align="left" href="https://google.com" src="./img/2.png" border-radius="10px" padding="0 5px 0 0 " /> 
+                    <mj-text padding="0px" padding-top="10px" font-family="Helvetica" font-size="16px" font-weight="700">
+                        Nap all day cat dog hate mouseeat string barf pillow
+                    </mj-text>
+                    
+                    <mj-button href="https://google.com" padding="0" padding-top="20px" padding-bottom="20px" border-radius="10px" width="250px" height="50px" font-family="Helvetica" font-size="16px">button</mj-button>
+                </mj-column>
+                
+                <!-- <mj-column css-class="ghost" padding="0px"> -->
+                    <!-- <mj-text padding="0px" font-family="Helvetica" font-size="16px" font-weight="700">
+                    </mj-text> -->
+                <!-- </mj-column> -->
+                
+                <mj-column css-class="base-width" padding-top="0px">
+                    <mj-image align="left" href="https://google.com" src="./img/3.png" border-radius="10px" padding="0 0 0 5px" />
+                    <mj-text padding="10px 0 0 5px"  font-family="Helvetica" font-size="16px" font-weight="700">
+                        Nap all day cat dog hate mouseeat string barf pillow
+                    </mj-text>
+                    <mj-button href="https://google.com" padding="0 0 0 5px" padding-top="20px" padding-bottom="20px" border-radius="10px" width="250px" height="50px" font-family="Helvetica" font-size="16px">button</mj-button>
+                </mj-column>
+            
+        </mj-section>
+    </mj-wrapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+        <mj-section padding="40px 190px 0px">
+            <mj-column padding="50px 10px 5px 40px" border-radius="20px 0px 0px 20px" background-color="#FFFFFF">
+                <mj-image align="left" href="https://google.com" src="./img/2.png" border-radius="8px" padding="0px"/>
+                <mj-text font-family="Helvetica" font-size="16px" font-weight="700">
+                    Nap all day cat dog hate mouseeat string barf pillow
+                </mj-text>
+                 <mj-button href="https://google.com" border-radius="10px" width="200px" height="50px" font-family="Helvetica" font-size="16px">button</mj-button>
+            </mj-column>
+            <mj-column padding="50px 40px 5px 10px" border-radius="0px 20px 20px 0px" background-color="#FFFFFF">
+                <mj-image align="left" href="https://google.com" src="./img/3.png" border-radius="10px" padding="0px"/>
+                <mj-text font-family="Helvetica" font-size="16px" font-weight="700">
+                    Nap all day cat dog hate mouseeat string barf pillow
+                </mj-text>
+                <mj-button href="https://google.com" border-radius="10px" width="200px" height="50px" font-family="Helvetica" font-size="16px">button</mj-button>
+            </mj-column>
+        </mj-section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<mj-section  padding="10px 190px 0px"  >
+  <mj-column padding="0">
+        <mj-text padding="0">
+            <div class="soc-bar">
+                <a href="https://facebook.com">
+                    <img src="img/soc-icons/facebook.png" alt="">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="img/soc-icons/twitter.png" alt="">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="img/soc-icons/instagram.png" alt="">
+                </a>
+                <a href="https://telegram.org">
+                    <img src="img/soc-icons/telegramm.png" alt="">
+                </a>
+                <a href="https://vk.com">
+                    <img src="img/soc-icons/vk.png" alt="">
+                </a>
+                <a href="https://youtube.com">
+                    <img src="img/soc-icons/youtube.png" alt="">
+                </a>
+            </div>
+        </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section padding="0" background-color="#e7e7e7" >
+    <mj-column padding="20px 170px">
+
+        <mj-text css-class="footer-text">
+            Nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty poochy. Sleep on keyboard toy mouse squeak roll over. Mesmerizing birds. Poop on grasses licks paws destroy couch intently sniff hand. The dog smells bad gnaw the corn cob.
+        </mj-text>
+  <mj-divider border-color="gray" border-width="1px" padding-bottom="80px"></mj-divider>
+    </mj-column >
+</mj-section>
+
+
+
+    </mj-body>
+</mjml>
